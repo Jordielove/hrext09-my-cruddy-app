@@ -44,7 +44,7 @@ email,
 city/state
 rating : based on a star system. Agencies can rate volunteer based on reliabilty
   (show up on time, perform task needed, ect),
-Willingness to travel: 5 mi, 10mi, 25mi, 50mi;
+Willingness to travel: 5 mi, 10mi, 25mi, 50mi;??
 
 
 
