@@ -9,13 +9,34 @@
           integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
           crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore-min.js"></script>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--   <link rel="stylesheet" type="text/css" src="C:\Users\jordi\Documents\Programming\hrext09-my-cruddy-app\css\style.css"> -->
+  <style>
+  body {
+    background-color: #FCFCFC;
+  }
+  .animals {
+    margin: 10px;
+    border: 2px solid rgb(219,97,99);
+    background-color: rgb(219,97,99, 0.4);
+  }
+  .homeless {
+    margin: 10px;
+    border: 2px solid rgb(72,126,133);
+    background-color: rgb(72,126,133, 0.4);
+  }
+  .environment {
+    margin: 10px;
+    border: 2px solid rgb(204,204,108);
+    background-color: rgb(204,204,108, 0.4);
+  }
+</style>
 </head>
 <body>
   <button type="button" class="btn btn-outline-success">Sign Up!</button>
-  <div class="categories">
+<!--   <div class="container">
     <div class="animals">
-       <h3> Animals</h3>
+       <h3>Animals</h3>
        <p> Help out your local animals shelter!<br>
        <em>“Until one has loved an animal, a part of one’s soul remains unawakened.”</em> –Anatole France</p>
     </div>
@@ -27,11 +48,35 @@
     </div>
     <div class="environment">
       <h3>Environmental Cleanup</h3>
-      <p> Keep our environment clean!<em>“Earth is what we all have in common.”</em> —Wendell Berry
+      <p> Keep our environment clean!<br>
+        <em>“Earth is what we all have in common.”</em> —Wendell Berry
       </p>
 
     </div>
+  </div> -->
+  <div class="container">
+  <div class="row">
+    <div class="col-sm animals">
+      <h3>Animals</h3>
+      <p> Help out your local animals shelter!<br>
+        <br>
+       <em>“Until one has loved an animal, a part of one’s soul remains unawakened.”</em> –Anatole France</p>
+    </div>
+    <div class="col-sm homeless">
+      <h3>Homeless</h3>
+        <p>Help the less fortunate!<br>
+          <br>
+        <em>“Homelessness is not a choice, but rather a journey that many find themselves in.”</em> ― Asa Don Brown</p>
+    </div>
+    <div class="col-sm environment">
+      <h3>Environment</h3>
+      <p> Keep our environment clean!<br>
+        <br>
+        <em>“Earth is what we all have in common.”</em> —Wendell Berry
+      </p>
+    </div>
   </div>
+</div>
   <form>
     <input id="keyInput" type="text" placeholder="key"></input>
     <input id="valueInput" type="text" placeholder="value"></input>

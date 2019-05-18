@@ -1,0 +1,18 @@
+.container {
+  justify-content:center;
+}
+/*.animals {
+  background-image:url(https://www.onegreenplanet.org/animalsandnature/reasons-to-volunteer-at-your-local-animal-shelter-or-sanctuary/);
+  justify-content:center;
+  width: 700px;
+  height:400px;
+flex-wrap: wrap;
+}*/
+.animals {
+
+  border:2px solid #2F9C3C;
+}
+
+.environment {
+
+}
