@@ -39,6 +39,10 @@
     max-width: 100%;
     margin:20px;
   }
+  .signup {
+    margin: 20px;
+    padding: 20px;
+  }
 
 </style>
 </head>
@@ -74,7 +78,7 @@
     <div class="py-5">
 
       <!-- Content -->
-      <h5 class="h5 orange-text"><i class="fas fa-camera-retro"></i>Volunteer</h5>
+      <h3 class="h5 orange-text"><i class="fas fa-camera-retro"></i>Volunteer</h3>
       <h2 class="card-title h2 my-4 py-2"></h2>
       <p class="mb-4 pb-2 px-md-5 mx-md-5"></p>
       <a class="btn peach-gradient"><i class="fas fa-clone left"></i> Sign Up!</a>
@@ -82,7 +86,7 @@
     </div>
   </div>
 </div>
-<!-- Jumbotron -->
+
 
 
 
@@ -97,14 +101,14 @@
       <p> Help out your local animals shelter!<br>
         <br>
        <em>“Until one has loved an animal, a part of one’s soul remains unawakened.”</em> –Anatole France</p><br>
-       <button type="button" class="btn btn-outline-success float-right">Apply</button>
+       <button type="button" class="animalbutt btn-outline-success float-right">Apply</button>
     </div>
     <div class="col-sm homeless">
       <h3>Homeless</h3>
         <p>Help the less fortunate!<br>
           <br>
         <em>“Homelessness is not a choice, but rather a journey that many find themselves in.”</em> ― Asa Don Brown</p><br>
-       <button type="button" class="btn btn-outline-success float-right">Apply</button>
+       <button type="button" class="homebutt btn-outline-success float-right">Apply</button>
     </div>
     <div class="col-sm environment">
       <h3>Environment</h3>
@@ -112,16 +116,18 @@
         <br>
         <em>“Earth is what we all have in common.”</em> —Wendell Berry
       </p><br>
-       <button type="button" class="btn btn-outline-success float-right">Apply</button>
+       <button type="button" class="environmentbutt btn-outline-success float-right">Apply</button>
     </div>
   </div>
 </div>
-  <form>
-    <input id="keyInput" type="text" placeholder="key"></input>
-    <input id="valueInput" type="text" placeholder="value"></input>
+<p class="signup"> Sign up today!</p>
+  <center><form>
+    <input id="keyInput" type="text" placeholder="Full Name"></input>
+    <br>
+    <input id="valueInput" type="text" placeholder="City"></input>
     <button id="createButton" type='submit'>Create</button>
     <button id="updateButton" type='submit'>Update</button>
-  </form>
+  </form></center>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src='app/app.js'></script>
