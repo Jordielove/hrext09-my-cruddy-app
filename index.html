@@ -12,8 +12,10 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <!--   <link rel="stylesheet" type="text/css" src="C:\Users\jordi\Documents\Programming\hrext09-my-cruddy-app\css\style.css"> -->
   <style>
-  body {
-    background-color: #FCFCFC;
+  .body {
+    background-repeat: repeat;
+    background-size: 200px;
+    background: url(https://frenchmenstreetlive.com/dev/wp-content/uploads/2013/11/Triangle-White-Seamless-Patterns.jpg);
   }
   .animals {
     margin: 10px;
@@ -30,10 +32,18 @@
     border: 2px solid rgb(204,204,108);
     background-color: rgb(204,204,108, 0.4);
   }
+  .btn {
+    margin:20px;
+  }
+  .card {
+    max-width: 100%;
+    margin:20px;
+  }
+
 </style>
 </head>
-<body>
-  <button type="button" class="btn btn-outline-success">Sign Up!</button>
+<body class="body">
+  <h2><center> Volunteer</center></h2>
 <!--   <div class="container">
     <div class="animals">
        <h3>Animals</h3>
@@ -54,26 +64,55 @@
 
     </div>
   </div> -->
+
+
+
+
+<!-- Jumbotron -->
+<div class="card card-image" style="background-image: url(https://i.imgur.com/WwbK2hm.jpg);">
+  <div class="text-white text-center rgba-stylish-strong py-5 px-4">
+    <div class="py-5">
+
+      <!-- Content -->
+      <h5 class="h5 orange-text"><i class="fas fa-camera-retro"></i>Volunteer</h5>
+      <h2 class="card-title h2 my-4 py-2"></h2>
+      <p class="mb-4 pb-2 px-md-5 mx-md-5"></p>
+      <a class="btn peach-gradient"><i class="fas fa-clone left"></i> Sign Up!</a>
+
+    </div>
+  </div>
+</div>
+<!-- Jumbotron -->
+
+
+
+
+
+
+
   <div class="container">
   <div class="row">
     <div class="col-sm animals">
       <h3>Animals</h3>
       <p> Help out your local animals shelter!<br>
         <br>
-       <em>“Until one has loved an animal, a part of one’s soul remains unawakened.”</em> –Anatole France</p>
+       <em>“Until one has loved an animal, a part of one’s soul remains unawakened.”</em> –Anatole France</p><br>
+       <button type="button" class="btn btn-outline-success float-right">Apply</button>
     </div>
     <div class="col-sm homeless">
       <h3>Homeless</h3>
         <p>Help the less fortunate!<br>
           <br>
-        <em>“Homelessness is not a choice, but rather a journey that many find themselves in.”</em> ― Asa Don Brown</p>
+        <em>“Homelessness is not a choice, but rather a journey that many find themselves in.”</em> ― Asa Don Brown</p><br>
+       <button type="button" class="btn btn-outline-success float-right">Apply</button>
     </div>
     <div class="col-sm environment">
       <h3>Environment</h3>
       <p> Keep our environment clean!<br>
         <br>
         <em>“Earth is what we all have in common.”</em> —Wendell Berry
-      </p>
+      </p><br>
+       <button type="button" class="btn btn-outline-success float-right">Apply</button>
     </div>
   </div>
 </div>

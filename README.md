@@ -56,4 +56,22 @@ User input information and can apply for job wanted via apply button
 User can filter by distance preference
 
 
+Homeless
+
+https://john316mission.org/wp-content/uploads/2019/01/ServeWeb19-1000x500.jpg
+
+
+Dog
+
+https://www.gannett-cdn.com/-mm-/e2d35cb4578dea3940c20309691e60d3f573515a/c=0-79-899-585/local/-/media/2016/10/22/Wichita%20Falls/W0013972963--621056.JPG?width=3200&height=1680&fit=crop
+
+
+Beach
+
+https://ak4.picdn.net/shutterstock/videos/28438534/thumb/1.jpg
+
+
+
+
+
 */
