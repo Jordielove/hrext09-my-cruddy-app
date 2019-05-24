@@ -68,5 +68,13 @@ $(document).ready(function() {
       //current key doesnt exist, do stuff
     }
   });
-
+$('.animalbutt').click(function(event) {
+  alert('Increase your rating to apply!')
+});
+$('.homebutt').click(function(event) {
+  alert('Increase your rating to apply!')
+})
+$('.environmentbutt').click(function(event) {
+  alert('You have been accepted!')
+})
 });

@@ -43,6 +43,13 @@
     margin: 20px;
     padding: 20px;
   }
+  .homebutt {
+    margin:25px 50px 25px 25px;
+  }
+
+  .environmentbutt {
+    margin:25px 50px 10px 25px;
+  }
 
 </style>
 </head>
@@ -78,10 +85,10 @@
     <div class="py-5">
 
       <!-- Content -->
-      <h3 class="h5 orange-text"><i class="fas fa-camera-retro"></i>Volunteer</h3>
+      <h3 class="h5 orange-text"><i class="fas fa-camera-retro"></i></h3>
       <h2 class="card-title h2 my-4 py-2"></h2>
       <p class="mb-4 pb-2 px-md-5 mx-md-5"></p>
-      <a class="btn peach-gradient"><i class="fas fa-clone left"></i> Sign Up!</a>
+      <a class="btn peach-gradient"><i class="fas fa-clone left"></i></a>
 
     </div>
   </div>
@@ -96,38 +103,66 @@
 
   <div class="container">
   <div class="row">
+
+ <!--    Animal Card -->
+
     <div class="col-sm animals">
       <h3>Animals</h3>
       <p> Help out your local animals shelter!<br>
         <br>
        <em>“Until one has loved an animal, a part of one’s soul remains unawakened.”</em> –Anatole France</p><br>
+       <p> Four &#9733; minimum to apply</p>
        <button type="button" class="animalbutt btn-outline-success float-right">Apply</button>
     </div>
+
+<!--     Homeless Card  -->
     <div class="col-sm homeless">
       <h3>Homeless</h3>
         <p>Help the less fortunate!<br>
           <br>
         <em>“Homelessness is not a choice, but rather a journey that many find themselves in.”</em> ― Asa Don Brown</p><br>
+        <p> Four &#9733; minimum to apply</p>
        <button type="button" class="homebutt btn-outline-success float-right">Apply</button>
     </div>
+
+<!--     Environment Card  -->
     <div class="col-sm environment">
       <h3>Environment</h3>
       <p> Keep our environment clean!<br>
         <br>
         <em>“Earth is what we all have in common.”</em> —Wendell Berry
       </p><br>
+      <p> No minimum to apply</p>
        <button type="button" class="environmentbutt btn-outline-success float-right">Apply</button>
     </div>
   </div>
 </div>
-<p class="signup"> Sign up today!</p>
+
+<!-- Signup Form  -->
+<center><p class="signup"> Sign up today!</p></center>
   <center><form>
     <input id="keyInput" type="text" placeholder="Full Name"></input>
     <br>
+    <br>
     <input id="valueInput" type="text" placeholder="City"></input>
+    <br>
+    <br>
+    <input id="emailInput" type="text" placeholder="Email"></input>
+    <br>
+    <br>
+    <input id="ageInput" type="text" placeholder="Age"></input>
+    <br>
+    <br>
+      <p>&#9733; &#9733; &#9733;</p>
+      <br>
     <button id="createButton" type='submit'>Create</button>
     <button id="updateButton" type='submit'>Update</button>
-  </form></center>
+
+  </form>
+
+</center>
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src='app/app.js'></script>
